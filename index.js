@@ -23,6 +23,7 @@ function initiation(){
     })
     for(i=0; i < checks.length; i++){
     checks[i].checked = true
+    }
     passLengthInput.addEventListener("change", function() {
     let v = parseInt(this.value);
     if (v < 8) this.value = 8;
