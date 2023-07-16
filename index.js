@@ -29,7 +29,6 @@ function initiation(){
     if (v < 8) this.value = 8;
     if (v > 20) this.value = 20;
     });
-    }
     passwordOne.addEventListener("click", copyToClipboard)
     passwordTwo.addEventListener("click", copyToClipboard)
 }
