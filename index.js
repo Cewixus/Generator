@@ -68,5 +68,5 @@ function generatePassword(){
 }
 
 function copyToClipboard(clicked){
-    navigator.clipboard.writeText(clicked.target.innerHTML);
+   
 }
