@@ -21,7 +21,7 @@ function initiation(){
         passGen.addEventListener("mouseup", function(){
         passGen.style.border = "3px solid #10B981"
     })
-    for(i=0; i < checks.length; i++){
+    for(let i=0; i < checks.length; i++){
     checks[i].checked = true
     }
     passLengthInput.addEventListener("change", function() {
